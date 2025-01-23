@@ -59,6 +59,19 @@ body {
 .container__box {
     margin: 0 6em;
 }
+.four{
+    align-items: center;
+    margin: 10em;
+    
+}
+.container__text-title {
+    font-size: 48px;
+    margin-bottom: var(--branco-segundario);
+}
+ 
+.container__text-title{
+    color: var(--branco-segundario);
+}
 .second {
     align-items: center;
     margin: 10em;
@@ -88,4 +101,42 @@ body {
     text-decoration: none;
     width: 158px;
     
+}
+.button{
+    width: fit-content;
+    margin: 1em 0;
+}
+.five{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 100%; 
+}
+.container__notebook-list{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footer{
+    font-family: var(--font-secondary);
+    letter-spacing: 0px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 100%;
+}
+.footer__list{
+    display:flex ;
+    justify-content: center;
+    list-style: none;
+    margin: 2em 0;
+    font-size: 16px;
+}
+.footer__list li a {
+    text-decoration: none;
+    color: var(--withe-secondary);
+    margin: 0 1em;
+}
+.footer__list p{
+    font-size: 14px;
+    color: var(--withe-secondary);
+    margin: 1em 0;
 }
